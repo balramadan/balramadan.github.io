@@ -24,7 +24,7 @@
         </h1>
         <!-- Navbar Medium -->
         <div class="navbarlink ml-auto mr-0 mt-1">
-          <ul class="sm:flex hidden uppercase">
+          <ul class="sm:flex hidden">
             <li id="courses" class="mr-8">
               <a href="#" class="text-neonpurple text-xs hover:text-indigo-700"
                 >Work</a
@@ -56,7 +56,7 @@
       <!-- Navbar Mobile -->
       <div
         id="mobilemenu"
-        class="md:hidden -ml-81 absolute py-72 px-4 bg-gray-50 h-full w-52 text-center shadow-sm -mt-12 z-10"
+        class="md:hidden -ml-81 absolute py-80 px-4 bg-gray-50 h-full w-60 text-center shadow-sm -mt-12 z-10"
       >
         <ul>
           <li class="mb-2.5">
@@ -103,7 +103,7 @@
             </div>
           </div>
           <p
-            class="md:text-justify text-center text-sm break-words mt-4 md:pr-16 md:pl-0 px-10"
+            class="md:text-justify text-center text-sm break-words mt-4 md:pr-16 md:pl-0 px-10 opacity-60"
           >
             I was a student in college, I could make you a website design and
             website front outline. I also sell some finished website framework
@@ -126,7 +126,7 @@
           <img src="img/blogging.png" class="md:w-full w-5/6 mx-auto" alt="" />
         </div>
       </div>
-      <a href="#skills" class="mx-auto mt-8 scroll-smooth"
+      <a href="#doing" class="mx-auto mt-8 scroll-smooth"
         ><i
           class="fa-solid fa-down-long font-light text-neonpurple text-2xl"
         ></i
@@ -152,7 +152,7 @@
               <i class="fa-solid fa-pen-nib text-black"></i>
               <p class="text-2xl text-black font-serif">Design</p>
             </div>
-            <p class="mt-4 text-center opacity-70">
+            <p class="mt-4 text-center opacity-60">
               I quite mastered design software like Adobe Photoshop, Adobe
               Illustrator, and Figma. I can make designs for you such as,
               website design, logos, brochures, thumbnails, and others.
@@ -170,7 +170,7 @@
               <i class="fa-solid fa-code text-black"></i>
               <p class="text-2xl text-black font-serif">Frontend Developer</p>
             </div>
-            <p class="mt-4 text-center opacity-70">
+            <p class="mt-4 text-center opacity-60">
               I can create a front view of the website for you. I'm quite good
               at HTML, CSS, Javascipt. I also mastered several frameworks like
               Bootstrap, TailwindCSS, and JQuery.
@@ -187,11 +187,46 @@
       </div>
     </section>
 
+    <!-- Banner -->
+    <section
+      class="py-8 w-full h-full bg-cover bg-top bg-fixed"
+      style="background-image: url('img/code.jpg')"
+    >
+      <div class="md:mx-32 mx-5 grid grid-cols-2 gap-4 items-center">
+        <div class="">
+          <h1 class="text-lg font-bold text-white">
+            Interested in creating a website design?
+          </h1>
+        </div>
+        <div class="text-right">
+          <button
+            class="text-xs rounded px-4 py-2 bg-neonpurple text-white hover:text-neonpurple hover:bg-white"
+          >
+            Contact Me
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section class="my-10">
+      <div class="md:mx-32 mx-5">
+        <h1 class="text-center text-xl font-bold text-neonpurple mb-10">
+          What I've Made?
+        </h1>
+        <h2 class="text-3xl text-center opacity-50">Nothing</h2>
+        <div class="hidden grid md:grid-cols-2 gap-4 text-center">
+          <div class="">Design</div>
+          <div class="">Website</div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="bg-neonpurple py-4">
-      <div class="flex justify-between text-sm md:mx-32 mx-5 text-white">
+    <footer class="bg-white py-4">
+      <div class="flex justify-between text-sm md:mx-32 mx-5 text-neonpurple">
         <div class="">&#169;2022 Iqbal Ramadan</div>
-        <div class="">Masih Tahap Pengembangan</div>
+        <div class="">Dibuat bersama &#9749</div>
       </div>
     </footer>
 
@@ -207,7 +242,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed("#auto-text", {
-        strings: ["Iqbal Ramadan", "Designer", "Web Developer"],
+        strings: ["Iqbal Ramadan", "Frontend Developer", "Designer"],
         typeSpeed: 60,
         backSpeed: 0,
         backDelay: 1000,
