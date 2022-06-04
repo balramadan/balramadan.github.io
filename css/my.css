@@ -1,0 +1,73 @@
+.html {
+  animation: html 1s linear forwards;
+}
+.css {
+  animation: css 1s linear forwards;
+}
+.javascript {
+  animation: javascript 1s linear forwards;
+}
+.python {
+  animation: python 1s linear forwards;
+}
+.java {
+  animation: java 1s linear forwards;
+}
+.adobeps {
+  animation: adobeps 1s linear forwards;
+}
+.corel {
+  animation: corel 1s linear forwards;
+}
+.adobeil {
+  animation: adobeil 1s linear forwards;
+}
+.figma {
+  animation: figma 1s linear forwards;
+}
+
+@keyframes html {
+  100% {
+    width: 86%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes javascript {
+  100% {
+    width: 65%;
+  }
+}
+@keyframes python {
+  100% {
+    width: 52%;
+  }
+}
+@keyframes java {
+  100% {
+    width: 38%;
+  }
+}
+@keyframes adobeps {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes corel {
+  100% {
+    width: 66%;
+  }
+}
+@keyframes adobeil {
+  100% {
+    width: 73%;
+  }
+}
+@keyframes figma {
+  100% {
+    width: 70%;
+  }
+}
