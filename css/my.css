@@ -1,0 +1,117 @@
+/* Main Page */
+.loader {
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    background: #333;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+    opacity: 0;
+    visibility: none;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #ddd;
+    border-top-color: rgb(124 131 253);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    from { transform: rotate(0turn); }
+    to { transform: rotate(1turn); }
+}
+
+.amp-sidebar {
+    z-index: 100;
+}
+
+.menu-mobile li {
+    display: flex;
+}
+
+/* About Page */
+.html {
+    animation: html 1s linear forwards;
+}
+.css {
+    animation: css 1s linear forwards;
+}
+.javascript {
+    animation: javascript 1s linear forwards;
+}
+.python {
+    animation: python 1s linear forwards;
+}
+.java {
+    animation: java 1s linear forwards;
+}
+.adobeps {
+    animation: adobeps 1s linear forwards;
+}
+.corel {
+    animation: corel 1s linear forwards;
+}
+.adobeil {
+    animation: adobeil 1s linear forwards;
+}
+.figma {
+    animation: figma 1s linear forwards;
+}
+
+@keyframes html {
+    100% {
+        width: 86%;
+    }
+}
+@keyframes css {
+    100% {
+        width: 80%;
+    }
+}
+@keyframes javascript {
+    100% {
+        width: 65%;
+    }
+}
+@keyframes python {
+    100% {
+        width: 52%;
+    }
+}
+@keyframes java {
+    100% {
+        width: 38%;
+    }
+}
+@keyframes adobeps {
+    100% {
+        width: 80%;
+    }
+}
+@keyframes corel {
+    100% {
+        width: 66%;
+    }
+}
+@keyframes adobeil {
+    100% {
+        width: 73%;
+    }
+}
+@keyframes figma {
+    100% {
+        width: 70%;
+    }
+}
