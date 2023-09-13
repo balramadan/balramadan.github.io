@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- UI Kit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/my.css">
+
+    <title>About | Iqbal Ramadan</title>
+</head>
+<body class="scroll-smooth">
+    <!-- Navbar -->
+    <nav
+        class="md:bg-transparent bg-white md:shadow-none shadow-sm md:relative sticky top-0 py-4 z-10"
+        >
+        <div class="flex md:mx-32 mx-5">
+            <!-- Logo -->
+            <h1 class="font-bold text-lg">
+                <span class="text-black">Iqbal</span
+                ><span class="text-neonpurple">Ramadan</span
+                ><span class="text-white">.</span>
+            </h1>
+            <!-- Navbar Medium -->
+            <div class="navbarlink ml-auto mr-0 mt-1">
+                <ul class="sm:flex hidden">
+                    <li id="home" class="mr-8">
+                        <a href="index.html" class="text-neonpurple text-xs hover:text-indigo-700"
+                            >Home</a
+                        >
+                    </li>
+                    <li id="about" class="mr-8">
+                        <a href="about/index.html" class="text-neonpurple text-xs hover:text-indigo-700"
+                            >About</a
+                        >
+                    </li>
+                    <li id="blog" class="mr-8">
+                        <a href="https://www.balramadan.my.id" class="text-neonpurple text-xs hover:text-indigo-700"
+                            >Blog</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <!-- Menu Logo -->
+            <div class="sm:hidden ml-auto text-2xl">
+                <i id="menubutton"
+                    uk-icon="icon: menu;" uk-toggle="target: #offcanvas-nav"></i>
+                <!--<i hidden id="closemenu" class="fas fa-times cursor-pointer text-black" on="tap:sidebar1.close"></i>-->
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Mobile -->
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true; flip: true; mode: reveal;">
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+                <li><a href="../index.html"><span class="uk-margin-small-right" uk-icon="icon: home"></span> Home</a></li>
+                <li class="uk-active"><a href="index.html"><span class="uk-margin-small-right" uk-icon="icon: info"></span> About</a></li>
+                <li><a href="https://www.balramadan.my.id"><span class="uk-margin-small-right" uk-icon="icon: rss"></span> Blog</a></li>
+                <li class="uk-nav-divider"></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <section id="about" class="mt-5 md:mx-32 mx-5">
+        <h1 class="text-xl font-bold text-black opacity-50 text-center">About Me</h1>
+        <div class="relative mt-5 grid sm:grid-cols-3 gap-4 sm:items-center">
+            <div class="">
+                <img src="../img/iqbalramadan.jpg" class="items-center w-auto h-40 rounded-full mx-auto" alt="Iqbal Ramadan">
+            </div>
+            <div class="sm:col-span-2">
+                <h2 class="text-center sm:text-left mt-2 font-serif text-xl font-bold">Iqbal Ramadan</h2>
+                <h3 class="text-center sm:text-left text-neonpurple font-light">Designer & Frontend Developer</h3>
+                <p class="text-sm text-center sm:text-left mt-3 break-words">
+                    I am currently studying at Bina Sarana Informatika University,
+                    and I live in Jakarta. I have the ability to process software to design,
+                    I also master programming to build a frontend website and am studying other
+                    programming languages. I am a flexible person allowing me to adjust the time I have,
+                    and I really like to learn new things.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="uk-margin-medium-top uk-divider-icon" />
+    
+    <!-- Abilities -->
+    <section class="uk-margin-medium-top md:mx-32 mx-5">
+        <h1 class="text-base text-center font-semibold">My Abilities</h1>
+        <div class="sm:grid sm:grid-cols-2 gap-4 mt-4" id="skills">
+            <div class="">
+                <h1 class="text-neonpurple text-center sm:text-left font-serif">Programming Language</h1>
+                <!-- Progress Bar -->
+                <!-- HTML -->
+                <div class="flex items-center mt-3">
+                    <h3 class="text-sm">HTML</h3>
+                    <i class="fa-brands fa-html5 ml-1 text-neonpurple"></i>
+                </div>
+                <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                    <div class="html h-2 rounded bg-neonpurple">
+                        <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">86%</span>
+                    </div>
+                </div>
+                <!-- CSS -->
+                <div class="flex items-center mt-3">
+                    <h3 class="text-sm">CSS</h3>
+                    <i class="fa-brands fa-css3 ml-1 text-neonpurple"></i>
+                </div>
+                <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                    <div class="css h-2 rounded bg-neonpurple">
+                        <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">80%</span>
+                    </div>
+                </div>
+                <!-- Javascript -->
+                <div class="flex items-center mt-3">
+                    <h3 class="text-sm">Javascript</h3>
+                    <i class="fa-brands fa-js ml-1 text-neonpurple"></i>
+                </div>
+                <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                    <div class="javascript h-2 rounded bg-neonpurple">
+                        <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">65%</span>
+                    </div>
+                </div>
+                <!-- Python -->
+                <div class="flex items-center mt-3">
+                    <h3 class="text-sm">Python</h3>
+                    <i class="fa-brands fa-python ml-1 text-neonpurple"></i>
+                </div>
+                <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                    <div class="python h-2 rounded bg-neonpurple">
+                        <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center"><span>52%</span>
+                        </div>
+                    </div>
+                    <!-- Java 
+                    <div class="flex items-center mt-3">
+                        <h3 class="text-sm">Java</h3>
+                        <i class="fa-brands fa-java ml-1 text-neonpurple"></i>
+                    </div>
+                    <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                        <div class="java h-2 rounded bg-neonpurple">
+                            <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">30%</span>
+                        </div>
+                    -->
+                    </div>
+                </div>
+                <div class="">
+                    <h1 class="text-neonpurple text-center sm:text-left font-serif mt-8 sm:mt-0">Design Software</h1>
+                    <h3 class="text-sm mt-3">Adobe Photoshop</h3>
+                    <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                        <div class="adobeps h-2 rounded bg-neonpurple">
+                            <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">80%</span>
+                        </div>
+                    </div>
+                    <h3 class="text-sm mt-3">Corel Draw</h3>
+                    <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                        <div class="corel h-2 rounded bg-neonpurple">
+                            <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">66%</span>
+                        </div>
+                    </div>
+                    <h3 class="text-sm mt-3">Adobe Illustrator</h3>
+                    <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                        <div class="adobeil h-2 rounded bg-neonpurple">
+                            <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">73%</span>
+                        </div>
+                    </div>
+                    <h3 class="text-sm mt-3">Figma</h3>
+                    <div class="progress-bar w-full h-2 bg-slate-200 rounded">
+                        <div class="figma h-2 rounded bg-neonpurple">
+                            <span class="w-10 h-10 border-neonpurple border-2 text-sm rounded-full bg-white float-right -mt-3 -mr-5 from-neutral-800 flex items-center justify-center">50%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-neonpurple py-4 mt-8">
+            <div class="flex justify-between text-sm md:mx-32 mx-5 text-white">
+                <div class="">
+                    &#169;2022 Iqbal Ramadan
+                </div>
+                <div class="">
+                    Dibuat bersama &#9749
+                </div>
+            </div>
+        </footer>
+
+        <!--UI Kit Javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../javascript/app.js"></script>
+
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/c45127b1f6.js"
+            crossorigin="anonymous"
+            ></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    </body>
+</html>
