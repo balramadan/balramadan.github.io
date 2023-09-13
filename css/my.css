@@ -71,47 +71,74 @@
 }
 
 @keyframes html {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 86%;
     }
 }
 @keyframes css {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 80%;
     }
 }
 @keyframes javascript {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 65%;
     }
 }
 @keyframes python {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 52%;
     }
 }
 @keyframes java {
+    0% {
+        width: 0%;
+    }
     100% {
-        width: 38%;
+        width: 30%;
     }
 }
 @keyframes adobeps {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 80%;
     }
 }
 @keyframes corel {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 66%;
     }
 }
 @keyframes adobeil {
+    0% {
+        width: 0%;
+    }
     100% {
         width: 73%;
     }
 }
 @keyframes figma {
+    0% {
+        width: 0%;
+    }
     100% {
-        width: 70%;
+        width: 50%;
     }
 }
